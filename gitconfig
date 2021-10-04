@@ -49,3 +49,6 @@
 
 [pull]
   rebase = false
+[user]
+	email = crosslegged@gmail.com
+	name = Benjamin McConnell
