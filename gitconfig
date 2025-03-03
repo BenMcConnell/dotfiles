@@ -51,4 +51,11 @@
   rebase = false
 [user]
 	email = crosslegged@gmail.com
-	name = Benjamin McConnell
+	name = Ben McConnell
+[credential]
+	helper = cache --timeout=86400
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
